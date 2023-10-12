@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+/* pointer-circle */
+
+#pointer-circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1111;
+  transition: all cubic-bezier(0.1, 1, 0.22, 1) 1s;
+}
+
+/* main page  */
+
+#main-content {
+  width: 100%;
+  background-color: black;
+}
+
+/* hero page  */
+
+#hero-page {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+/* nav bar  */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 8vh;
+  color: white;
+}
+
+#navbar a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Front bold text AKA heading */
+
+#heading {
+  margin-top: 90px;
+}
+
+.animation {
+  width: fit-content;
+  overflow: hidden;
+}
+
+.animationelem {
+  transform: translateY(100%);
+}
+
+#heading h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20vh;
+  text-transform: uppercase;
+  line-height: 1;
+  opacity: 0.6;
+  margin-left: 30px;
+}
+
+#heading .second-h1 {
+  margin-left: 230px;
+}
+
+.blocktext {
+  width: fit-content;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.blocktext h5 {
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 2vh;
+}
+
+#small-heading {
+  padding-top: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+#small-heading h5 {
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 2vh;
+}
+
+#hero-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 3%;
+  padding: 0 2vh;
+}
+
+#hero-footer a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#hero-footer .iconset {
+  display: flex;
+  gap: 10px;
+  color: black;
+  font-weight: 700;
+  margin-right: 35px;
+}
+
+#hero-footer .circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+}
+
+/* second hero page  */
+
+#second {
+  padding-right: 10vw;
+  padding-left: 5vh;
+  padding-top: 200px;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.context {
+  position: relative;
+  padding: 2vw 3vw;
+  width: 100%;
+  border-top: 1px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 7vh;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  opacity: 0.6;
+}
+
+.context h5 {
+  font-size: 2.5vh;
+}
+
+.lastborder {
+  border-bottom: 1px solid #888;
+}
+
+.context img {
+  width: 400px;
+  pointer-events: none;
+  position: absolute;
+  z-index: 111;
+  height: 140%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+/* about page  */
+
+#about-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 10vh 5vw;
+  gap: 30px;
+  padding-left: 40vw;
+}
+
+img {
+  width: 200px;
+}
+
+.text-about {
+  width: 25rem;
+}
+
+.text-about h5 {
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+.text-about p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.text-about a {
+  padding: 12px 22px;
+  border: 1px solid white;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+/* subscribe line  */
+
+#subscribe {
+  color: white;
+  padding: 20px 30px;
+  background-color: black;
+  padding-bottom: 6vh;
+}
+
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* footer section  */
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: black;
+  color: white;
+}
+
+.footer-left {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-right {
+  display: flex;
+}
+
+.footer-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px;
+}
