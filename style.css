@@ -286,3 +286,138 @@ img {
   text-transform: uppercase;
   padding: 20px;
 }
+
+@media screen and (max-width: 746px) {
+  html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  #pointer-circle {
+    display: none;
+  }
+
+  #main-content {
+    width: 100%;
+    background-color: black;
+  }
+
+  #navbar {
+    justify-content: space-between;
+    padding: 2rem 4vh;
+  }
+  
+  #navbar a {
+    font-size: 18px;
+  }
+
+  #heading {
+    margin-top: 200px;
+  }
+  
+  #heading h1 {
+    font-size: 7.8vh;
+    margin-left: 10px;
+  }
+  
+  #heading .second-h1 {
+    margin-left: 60px;
+  }
+  
+  #small-heading {
+    padding-top: 150px;
+    padding-right: 15px;
+  }
+
+  #small-heading h5 {
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 2vh;
+  }
+  
+  #hero-footer {
+    bottom: 8%;
+    padding: 0 5px;
+  }
+  
+  #hero-footer a {
+    font-size: 12px;
+  }
+  
+  #hero-footer .iconset {
+    margin-right: 15px;
+  }
+  
+  #second {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-height: 60vh;
+  }
+  
+  .context {
+    padding: 5vw 1vw;
+    width: 100%;
+    font-size: 3vh;
+  }
+  
+  .context h5 {
+    font-size: 2vh;
+  }
+  
+  .context img {
+    display: none;
+  }
+  
+  /* about page  */
+  
+  #about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 0 0;
+    gap: 30px;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  .text-about {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-about h5 {
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+  
+  .text-about p {
+    text-align: center;
+    line-height: 1.7;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .text-about a {
+    padding: 12px 22px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+  }
+
+}
