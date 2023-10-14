@@ -101,8 +101,6 @@ document.querySelectorAll(".context").forEach(function (context) {
 });
 
 
-
-
 pointercircleSkew();
 pointerCircle();
 mainpageAni();
